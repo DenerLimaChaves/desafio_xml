@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inventario>
+    <produto>
+        <nome>Fone de Ouvido</nome>
+        <quantidade>50</quantidade>
+        <preco>120.00</preco>
+    </produto>
+    <produto>
+        <nome>Teclado</nome>
+        <quantidade>30</quantidade>
+        <preco>180.00</preco>
+    </produto>
+    <produto>
+        <nome>Mouse</nome>
+        <quantidade>40</quantidade>
+        <preco>90.00</preco>
+    </produto>
+</inventario>

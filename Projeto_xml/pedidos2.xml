@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<catalogo>
+    <livro id="001">
+        <titulo>Python para Iniciantes</titulo>
+        <autor>João Silva</autor>
+        <genero>Programação</genero>
+        <preco>89.90</preco>
+        <publicacao>2023-05-12</publicacao>
+        <disponivel>Sim</disponivel>
+    </livro>
+    <livro id="002">
+        <titulo>Aprendendo XML</titulo>
+        <autor>Maria Oliveira</autor>
+        <genero>Tecnologia</genero>
+        <preco>45.50</preco>
+        <publicacao>2022-09-08</publicacao>
+        <disponivel>Não</disponivel>
+    </livro>
+    <livro id="003">
+        <titulo>Banco de Dados SQL</titulo>
+        <autor>Carlos Souza</autor>
+        <genero>Banco de Dados</genero>
+        <preco>120.00</preco>
+        <publicacao>2024-02-20</publicacao>
+        <disponivel>Sim</disponivel>
+    </livro>
+        <livro id="002">
+        <titulo>Aprendendo XML</titulo>
+        <autor>Maria Oliveira</autor>
+        <genero>Tecnologia</genero>
+        <preco>45.50</preco>
+        <publicacao>2022-09-08</publicacao>
+        <disponivel>Não</disponivel>
+    </livro>
+
+</catalogo>

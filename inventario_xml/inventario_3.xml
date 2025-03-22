@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inventario>
+    <produto>
+        <nome>Cadeira Gamer</nome>
+        <quantidade>5</quantidade>
+        <preco>850.00</preco>
+    </produto>
+    <produto>
+        <nome>Monitor</nome>
+        <quantidade>12</quantidade>
+        <preco>1200.00</preco>
+    </produto>
+    <produto>
+        <nome>Microfone</nome>
+        <quantidade>20</quantidade>
+        <preco>300.00</preco>
+    </produto>
+</inventario>

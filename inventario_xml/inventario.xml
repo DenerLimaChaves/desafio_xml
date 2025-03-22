@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<inventario>
+    <produto>
+        <nome>Camiseta</nome>
+        <quantidade>50</quantidade>
+        <preco>25.50</preco>
+    </produto>
+    <produto>
+        <nome>Calça</nome>
+        <quantidade>30</quantidade>
+        <preco>70.00</preco>
+    </produto>
+    <produto>
+        <nome>Tenis</nome>
+        <quantidade>20</quantidade>
+        <preco>100.00</preco>
+    </produto>
+    <produto>
+        <nome>Boné</nome>
+        <quantidade>40</quantidade>
+        <preco>15.00</preco>
+    </produto>
+</inventario>

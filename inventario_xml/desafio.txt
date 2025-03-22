@@ -1,0 +1,27 @@
+Desafio Avançado: Gerenciador de Inventário de Produtos em XML
+Objetivo: Você tem um arquivo XML com informações sobre o inventário de produtos de uma loja. O desafio consiste em:
+
+Ler e processar os dados do arquivo XML.
+-Calcular o total de produtos em estoque e o valor total de inventário (quantidade * preço).
+-Identificar os produtos mais caros e os mais baratos.
+Gerar um relatório detalhado com os produtos, quantidade em estoque, preço unitário e valor total por produto.
+Gerar um resumo final com:
+Produto mais caro
+Produto mais barato
+Total de itens no inventário
+Valor total do inventário (soma de todos os valores dos produtos no estoque)
+
+
+Saída Esperada:
+Relatório de Produtos:
+Produto: Camiseta, Quantidade: 50, Preço Unitário: 25.50, Valor Total: 1275.00
+Produto: Calça, Quantidade: 30, Preço Unitário: 70.00, Valor Total: 2100.00
+Produto: Tenis, Quantidade: 20, Preço Unitário: 100.00, Valor Total: 2000.00
+Produto: Boné, Quantidade: 40, Preço Unitário: 15.00, Valor Total: 600.00
+
+
+Resumo Final:
+Produto mais caro: Tenis (R$ 100.00)
+Produto mais barato: Boné (R$ 15.00)
+Total de itens no inventário: 140
+Valor total do inventário: R$ 5975.00

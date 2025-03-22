@@ -1,0 +1,54 @@
+1. XML Malformado
+Tags não fechadas corretamente
+
+Atributos sem aspas
+
+Caracteres especiais não escapados (&, <, > etc.)
+
+Projeto: Criar um validador de XML que identifique erros estruturais e sugira correções.
+
+2. Duplicação de Elementos
+Um XML pode conter IDs ou chaves duplicadas onde deveriam ser únicas.
+
+Projeto: Criar um script que detecte elementos duplicados com base em um atributo específico.
+
+3. Estrutura Inesperada
+
+
+
+
+
+
+Você disse:
+continua
+O ChatGPT disse:
+3. Estrutura Inesperada
+XML pode conter elementos fora da ordem esperada ou em locais incorretos.
+
+Algumas tags podem estar ausentes ou mal aninhadas.
+
+Projeto: Criar um analisador que compara um XML real com um esquema pré-definido (XSD ou uma estrutura esperada) e sinaliza inconsistências.
+
+4. Inconsistência de Dados
+Campos obrigatórios vazios.
+
+Tipos de dados incorretos (exemplo: um campo que deveria ser um número contém texto).
+
+Datas em formatos diferentes.
+
+Projeto: Criar um validador que verifica se os valores seguem um padrão correto (ex: datas no formato YYYY-MM-DD, números sem caracteres inválidos, etc.).
+
+5. Extração e Transformação de Dados
+XMLs podem ser extensos e conter muitos dados irrelevantes.
+
+Pode ser necessário transformar um XML em outro formato (JSON, CSV).
+
+Projeto: Criar um conversor de XML para JSON ou CSV, permitindo que o usuário escolha quais campos deseja extrair.
+
+
+
+
+
+
+
+    

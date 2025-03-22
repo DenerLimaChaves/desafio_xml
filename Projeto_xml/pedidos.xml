@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pedidos>
+    <pedido id="1001">
+        <cliente>
+            <id>123</id>
+            <nome>Ana Souza</nome>
+            <email>ana.souza@email.com</email>
+            <telefone>+55 11 98765-4321</telefone>
+            <endereco>
+                <rua>Av. Paulista</rua>
+                <numero>1000</numero>
+                <bairro>Bela Vista</bairro>
+                <cidade>São Paulo</cidade>
+                <estado>SP</estado>
+                <cep>01310-000</cep>
+            </endereco>
+        </cliente>
+        <itens>
+            <item>
+                <produto_id>001</produto_id>
+                <nome>Notebook Gamer</nome>
+                <quantidade>1</quantidade>
+                <preco_unitario>5000.00</preco_unitario>
+            </item>
+            <item>
+                <produto_id>002</produto_id>
+                <nome>Mouse Sem Fio</nome>
+                <quantidade>2</quantidade>
+                <preco_unitario>150.00</preco_unitario>
+            </item>
+        <itens>
+        <pagamento>
+            <metodo>Cartão de Crédito</metodo>
+            <status>Aprovado</status>
+            <valor_total>5300.00</valor_total>
+        </pagamento>
+        <status>Enviado</status>
+        <data_pedido>2025-03-22</data_pedido>
+    </pedido>
+</pedidos>

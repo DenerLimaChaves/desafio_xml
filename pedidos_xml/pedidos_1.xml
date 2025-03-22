@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='utf-8'?>
+<pedidos>
+    <pedido>
+        <cliente>João</cliente>
+        <valor>150.50</valor>
+    </pedido>
+    <pedido>
+        <cliente>Maria</cliente>
+        <valor>200.00</valor>
+    </pedido>
+    <pedido>
+        <cliente>João</cliente>
+        <valor>99.90</valor>
+    </pedido>
+    <pedido>
+        <cliente>Ana</cliente>
+        <valor>350.75</valor>
+    </pedido>
+    <pedido>
+        <cliente>Maria</cliente>
+        <valor>50.25</valor>
+    </pedido>
+</pedidos>

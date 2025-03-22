@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<pedidos><pedido><cliente>Alice</cliente><valor>10.50</valor></pedido><pedido><cliente>Bruno</cliente><valor>5.75</valor></pedido><pedido><cliente>Carlos</cliente><valor>20.00</valor></pedido><pedido><cliente>Bruno</cliente><valor>8.25</valor></pedido><pedido><cliente>Alice</cliente><valor>12.00</valor></pedido></pedidos>
