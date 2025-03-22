@@ -32,5 +32,13 @@
         <publicacao>2022-09-08</publicacao>
         <disponivel>Não</disponivel>
     </livro>
+    <livro id="003">
+        <titulo>Banco de Dados SQL</titulo>
+        <autor>Carlos Souza</autor>
+        <genero>Banco de Dados</genero>
+        <preco>120.00</preco>
+        <publicacao>2024-02-20</publicacao>
+        <disponivel>Sim</disponivel>
+    </livro>
 
 </catalogo>
