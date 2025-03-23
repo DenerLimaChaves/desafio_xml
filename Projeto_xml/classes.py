@@ -10,7 +10,8 @@ class tree_xml:
         pass
 
     def read_xml(self, source):
-        self.tree = ET.parse(source)
+        self.source = source
+        self.tree = ET.parse(self.source)
         self.root = self.tree.getroot()
     
     def duplicados(self):
@@ -32,11 +33,14 @@ class tree_xml:
                 while int(child.attrib['id']) in self.id_duplicado:
                     #new_id = int(input('Digite um novo id: ')) #ESTOU RECEBENDO UM STRING 
                     n = max(self.lista)*2
-                    new_id = rd.randint(0, n)
+                    new_id = rd.randint(1, n)
                     if new_id not in self.lista:
                         self.id_duplicado.remove(int(child.attrib['id']))
                         child.attrib['id'] = str(new_id)
                         print(f'Id {new_id} inserido com sucesso')
+                        #Declarei o parametro source do metodo read_xml como uma variavel de classe para ultilizar novamente no upload do arquivo xml
+                        self.tree.write(self.source, encoding='utf-8', xml_declaration=True)
+                        
                         self.duplicados()
                         #print("Esse Id, ja existe, escolha outro!")
                     #indice = self.id_duplicado.index(child.attrib['id'])
@@ -46,16 +50,14 @@ class tree_xml:
             print('Não existem ID iguais')
         for child in self.root:
             print('id livro: ', child.attrib['id'])
-
+        
     def excluir_duplicados(self):
         pass        
-        print(self.id_duplicado)
-
-           
+        print(self.id_duplicado)      
 
 
 
 teste = tree_xml()
 teste.read_xml("Projeto_xml\pedidos2.xml")
-
 teste.alterar_duplicado()
+#teste.alterar_duplicado()
