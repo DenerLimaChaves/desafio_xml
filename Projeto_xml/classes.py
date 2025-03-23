@@ -1,6 +1,6 @@
 #2. Duplicação de Elementos
 #Um XML pode conter IDs ou chaves duplicadas onde deveriam ser únicas.
-
+import random as rd
 import xml.etree.ElementTree as ET
 
 
@@ -30,15 +30,17 @@ class tree_xml:
             for child in self.root:
                 #if child.attrib['id'] in self.id_duplicado:
                 while int(child.attrib['id']) in self.id_duplicado:
-                    new_id = int(input('Digite um novo id: ')) #ESTOU RECEBENDO UM STRING 
-                    if new_id in self.lista:
-                        print("Esse Id, ja existe, escolha outro!")
-                    #indice = self.id_duplicado.index(child.attrib['id'])
-                    else:
+                    #new_id = int(input('Digite um novo id: ')) #ESTOU RECEBENDO UM STRING 
+                    n = max(self.lista)*2
+                    new_id = rd.randint(0, n)
+                    if new_id not in self.lista:
                         self.id_duplicado.remove(int(child.attrib['id']))
-                        child.attrib['id'] = new_id
-                        print('Id inserido com sucesso')
+                        child.attrib['id'] = str(new_id)
+                        print(f'Id {new_id} inserido com sucesso')
                         self.duplicados()
+                        #print("Esse Id, ja existe, escolha outro!")
+                    #indice = self.id_duplicado.index(child.attrib['id'])
+                        
                     
         else:
             print('Não existem ID iguais')

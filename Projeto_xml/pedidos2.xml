@@ -40,5 +40,37 @@
         <publicacao>2024-02-20</publicacao>
         <disponivel>Sim</disponivel>
     </livro>
+     <livro id="002">
+        <titulo>Aprendendo XML</titulo>
+        <autor>Maria Oliveira</autor>
+        <genero>Tecnologia</genero>
+        <preco>45.50</preco>
+        <publicacao>2022-09-08</publicacao>
+        <disponivel>Não</disponivel>
+    </livro>
+     <livro id="002">
+        <titulo>Aprendendo XML</titulo>
+        <autor>Maria Oliveira</autor>
+        <genero>Tecnologia</genero>
+        <preco>45.50</preco>
+        <publicacao>2022-09-08</publicacao>
+        <disponivel>Não</disponivel>
+    </livro>
+     <livro id="002">
+        <titulo>Aprendendo XML</titulo>
+        <autor>Maria Oliveira</autor>
+        <genero>Tecnologia</genero>
+        <preco>45.50</preco>
+        <publicacao>2022-09-08</publicacao>
+        <disponivel>Não</disponivel>
+    </livro>
+     <livro id="002">
+        <titulo>Aprendendo XML</titulo>
+        <autor>Maria Oliveira</autor>
+        <genero>Tecnologia</genero>
+        <preco>45.50</preco>
+        <publicacao>2022-09-08</publicacao>
+        <disponivel>Não</disponivel>
+    </livro>
 
 </catalogo>
