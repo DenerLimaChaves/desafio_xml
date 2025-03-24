@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <catalogo>
-    <livro id="1">
+    <livro id="2">
         <titulo>Python para Iniciantes</titulo>
         <autor>João Silva</autor>
         <genero>Programação</genero>
@@ -8,23 +8,7 @@
         <publicacao>2023-05-12</publicacao>
         <disponivel>Sim</disponivel>
     </livro>
-    <livro id="11">
-        <titulo>Aprendendo XML</titulo>
-        <autor>Maria Oliveira</autor>
-        <genero>Tecnologia</genero>
-        <preco>45.50</preco>
-        <publicacao>2022-09-08</publicacao>
-        <disponivel>Não</disponivel>
-    </livro>
-    <livro id="2">
-        <titulo>Banco de Dados SQL</titulo>
-        <autor>Carlos Souza</autor>
-        <genero>Banco de Dados</genero>
-        <preco>120.00</preco>
-        <publicacao>2024-02-20</publicacao>
-        <disponivel>Sim</disponivel>
-    </livro>
-        <livro id="3">
+    <livro id="3">
         <titulo>Aprendendo XML</titulo>
         <autor>Maria Oliveira</autor>
         <genero>Tecnologia</genero>
@@ -40,7 +24,7 @@
         <publicacao>2024-02-20</publicacao>
         <disponivel>Sim</disponivel>
     </livro>
-     <livro id="5">
+        <livro id="5">
         <titulo>Aprendendo XML</titulo>
         <autor>Maria Oliveira</autor>
         <genero>Tecnologia</genero>
@@ -48,13 +32,13 @@
         <publicacao>2022-09-08</publicacao>
         <disponivel>Não</disponivel>
     </livro>
-     <livro id="6">
-        <titulo>Aprendendo XML</titulo>
-        <autor>Maria Oliveira</autor>
-        <genero>Tecnologia</genero>
-        <preco>45.50</preco>
-        <publicacao>2022-09-08</publicacao>
-        <disponivel>Não</disponivel>
+    <livro id="6">
+        <titulo>Banco de Dados SQL</titulo>
+        <autor>Carlos Souza</autor>
+        <genero>Banco de Dados</genero>
+        <preco>120.00</preco>
+        <publicacao>2024-02-20</publicacao>
+        <disponivel>Sim</disponivel>
     </livro>
      <livro id="7">
         <titulo>Aprendendo XML</titulo>
@@ -65,6 +49,22 @@
         <disponivel>Não</disponivel>
     </livro>
      <livro id="8">
+        <titulo>Aprendendo XML</titulo>
+        <autor>Maria Oliveira</autor>
+        <genero>Tecnologia</genero>
+        <preco>45.50</preco>
+        <publicacao>2022-09-08</publicacao>
+        <disponivel>Não</disponivel>
+    </livro>
+     <livro id="9">
+        <titulo>Aprendendo XML</titulo>
+        <autor>Maria Oliveira</autor>
+        <genero>Tecnologia</genero>
+        <preco>45.50</preco>
+        <publicacao>2022-09-08</publicacao>
+        <disponivel>Não</disponivel>
+    </livro>
+     <livro id="1">
         <titulo>Aprendendo XML</titulo>
         <autor>Maria Oliveira</autor>
         <genero>Tecnologia</genero>

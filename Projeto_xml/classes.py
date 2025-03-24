@@ -1,5 +1,6 @@
 #2. Duplicação de Elementos
 #Um XML pode conter IDs ou chaves duplicadas onde deveriam ser únicas.
+#Projeto: Criar um script que detecte elementos duplicados com base em um atributo específico.
 import random as rd
 import xml.etree.ElementTree as ET
 
@@ -22,6 +23,7 @@ class tree_xml:
                 self.id_duplicado.append(int(child.attrib['id']))
             else:
                 self.lista.append(int(child.attrib['id'])) #estava recendo string, agr passa a receber inteiro
+        return self.id_duplicado
     
     def alterar_duplicado(self):
         if len(self.lista) == 0:
@@ -32,7 +34,7 @@ class tree_xml:
                 #if child.attrib['id'] in self.id_duplicado:
                 while int(child.attrib['id']) in self.id_duplicado:
                     #new_id = int(input('Digite um novo id: ')) #ESTOU RECEBENDO UM STRING 
-                    n = max(self.lista)*2
+                    n = max(self.lista)+1
                     new_id = rd.randint(1, n)
                     if new_id not in self.lista:
                         self.id_duplicado.remove(int(child.attrib['id']))
@@ -52,12 +54,15 @@ class tree_xml:
             print('id livro: ', child.attrib['id'])
         
     def excluir_duplicados(self):
+        for c in self.root:
+            c.attrib['id'] = '1'
+            self.tree.write(self.source, encoding='utf-8', xml_declaration=True)
         pass        
-        print(self.id_duplicado)      
+        
 
 
 
 teste = tree_xml()
 teste.read_xml("Projeto_xml\pedidos2.xml")
 teste.alterar_duplicado()
-#teste.alterar_duplicado()
+
